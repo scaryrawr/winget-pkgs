@@ -1,0 +1,15 @@
+Id: Linux.Kernel
+Version: 4.19.104-microsoft-standard
+Name: linux
+Publisher: Microsoft
+License: GPL-2.0 WITH Linux-syscall-note
+LicenseUrl: https://raw.githubusercontent.com/microsoft/WSL2-Linux-Kernel/master/COPYING
+AppMoniker: wsl2
+Tags: wsl, wsl2, linux, kernel
+Description: Linux kernel for WSL2
+Homepage: https://docs.microsoft.com/en-us/windows/wsl/
+Installers:
+  - Arch: x64
+    Url: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+    Sha256: F4833159D00077E160C4B87CA4C4066DA0B20BEC69331CD414A6CB62BD88DE70
+    InstallerType: msi
